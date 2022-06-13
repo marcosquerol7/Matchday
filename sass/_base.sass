@@ -1,0 +1,25 @@
+
+body
+  background-color: $color__morado
+  font-family: "Helvetica-Normal", sans-serif
+
+img
+  width: 100%
+
+.container
+  max-width: 60rem
+  padding: 1rem
+  margin: 0 auto
+
+  .button
+    $size: 3rem
+    display: inline-block
+    border: 1px solid $color__blanco
+    border-radius: 50%
+    width: 3rem
+    height: $size
+    width: $size
+    @include centrarEnEjes()
+
+    &__icon
+      height: 2rem

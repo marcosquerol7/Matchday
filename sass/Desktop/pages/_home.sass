@@ -1,0 +1,44 @@
+
+.landing
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: 3fr 1fr
+  height: 100vh
+  gap: 2rem
+  padding: 4rem 0
+  box-sizing: border-box
+
+  &__image-content
+    grid-column: 1 / 2
+    grid-row: 1 / 2
+
+  &__text
+    grid-column: 2 / 3
+    grid-row: 1 / 2
+
+  &__button
+    grid-column: 1 / 3
+    grid-row: 2 / 3
+
+  &__title
+    color: $color__blanco
+    text-transform: uppercase
+    font-size: $size__l
+
+  &__text
+    color: white
+    font-size: $size__m
+
+  .button
+    margin: 0 auto
+
+    &__caption
+      display: block
+      text-align: center
+      text-transform: uppercase
+      color: $color__blanco
+      font-size: $size__m
+      margin-top: 1rem
+
+      &--mobile
+        display: none

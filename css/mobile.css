@@ -1,0 +1,63 @@
+body {
+  background-color: #A9A9DE;
+  font-family: "Helvetica-Normal", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 60rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.container .button {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  width: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .button__icon {
+  height: 2rem;
+}
+
+.landing__title {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.landing__text {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+.landing .button {
+  margin: 0 auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.landing .button__caption {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.landing .button__caption--desktop {
+  display: none;
+}
+/*# sourceMappingURL=mobile.css.map */
